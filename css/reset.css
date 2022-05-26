@@ -1,17 +1,22 @@
 /* Указываем box sizing */
+
 *,
 *::before,
 *::after {
-   box-sizing: border-box;
+    box-sizing: border-box;
 }
+
 
 /* Убираем внутренние отступы */
+
 ul[class],
 ol[class] {
-   padding: 0;
+    padding: 0;
 }
 
+
 /* Убираем внешние отступы */
+
 body,
 h1,
 h2,
@@ -26,44 +31,52 @@ figcaption,
 blockquote,
 dl,
 dd {
-   margin: 0;
+    margin: 0;
 }
+
 
 /* Выставляем основные настройки по-умолчанию для body */
+
 body {
-   min-height: 100vh;
-   scroll-behavior: smooth;
-   text-rendering: optimizeSpeed;
-   line-height: 1;
+    min-height: 100vh;
+    scroll-behavior: smooth;
+    text-rendering: optimizeSpeed;
+    line-height: 1;
 }
+
 
 /* Удаляем стандартную стилизацию для всех ul и il, у которых есть атрибут class*/
+
 ul[class],
 ol[class] {
-   list-style: none;
+    list-style: none;
 }
 
-/* Элементы a, у которых нет класса, сбрасываем до дефолтных стилей */
-a:not([class]) {
-   text-decoration-skip-ink: auto;
 
+/* Элементы a, у которых нет класса, сбрасываем до дефолтных стилей */
+
+a:not([class]) {
+    text-decoration-skip-ink: auto;
 }
 
 a {
-   text-decoration: none;
+    text-decoration: none;
 }
 
 
 /* Упрощаем работу с изображениями */
+
 img {
-   max-width: 100%;
-   display: block;
+    max-width: 100%;
+    display: block;
 }
 
+
 /* Наследуем шрифты для инпутов и кнопок */
+
 input,
 button,
 textarea,
 select {
-   font: inherit;
+    font: inherit;
 }
