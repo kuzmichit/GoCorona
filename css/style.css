@@ -50,7 +50,9 @@
 }
 
 .header__logo {
-   width: 341px;
+   width: 140px;
+   height: 40;
+   margin-left: 75px;
 }
 
 .header__menu {
@@ -70,36 +72,32 @@
    font-size: 10pt;
    font-weight: 700;
    line-height: 12pt;
-   margin-right: 40px;
+   margin-right: 38px;
 }
 
 .menu__link {}
 
 .header__button {
-   margin: 0 0 0 122px;
    display: flex;
-   flex: 0 1 auto;
+   flex: 0 0 292px;
    justify-content: flex-end;
-   margin-right: 40px;
-
+   padding-right: 41px;
 }
 
 .button {
    display: inline-block;
    border: 1px solid #000;
-   padding: 14px 30px;
+   padding: 14px 40px;
    color: #fff;
    font-family: 'Raleway';
-   font-style: normal;
+   text-transform: uppercase;
    font-weight: 800;
    font-size: 10px;
-   line-height: 1.2;
+   line-height: 12px;
    border-radius: 5px;
 }
 
-.button_color {
-   width: 100%;
-   height: 40px;
+.header__button_color {
    background-color: blue;
 }
 
