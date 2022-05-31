@@ -33,6 +33,7 @@ blockquote,
 dl,
 dd {
    margin: 0;
+   padding: 0;
 }
 
 
@@ -54,6 +55,7 @@ a:not([class]) {
 
 a {
    text-decoration: none;
+   color: #000;
 }
 
 
@@ -72,4 +74,13 @@ button,
 textarea,
 select {
    font: inherit;
+}
+
+body {
+   font-family: 'Rubik';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 12px;
+   line-height: 1.4;
+   letter-spacing: 0.08em;
 }
